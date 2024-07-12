@@ -34,7 +34,11 @@
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
 		"typescript-eslint": "^8.0.0-alpha.20",
-		"vite": "^5.0.3"
+		"vite": "^5.0.3",
+		"@inlang/paraglide-js": "1.11.2"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@inlang/paraglide-sveltekit": "0.11.0"
+	}
 }
