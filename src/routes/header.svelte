@@ -4,6 +4,7 @@
 	import Calendar from 'lucide-svelte/icons/calendar';
 	import CircleUser from 'lucide-svelte/icons/circle-user';
 	import Menu from 'lucide-svelte/icons/menu';
+	import * as m from "$lib/paraglide/messages";
 </script>
 
 <AppBar
@@ -16,7 +17,7 @@
 			<Menu size={20} />
 		</div>
 	{/snippet}
-	<span>HoYoProfile</span>
+	<span>{m.title()}</span>
 	{#snippet trail()}
 		<div class="hidden space-x-4 sm:flex">
 			<Paperclip size={20} />
